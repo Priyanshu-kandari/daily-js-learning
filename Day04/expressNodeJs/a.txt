@@ -1,0 +1,79 @@
+//ECMAScript
+ECMAScript is just a standard (a rulebook) that defines how JavaScript should work.
+
+JavaScript is an implementation of the ECMAScript standard.
+
+All the new features of JavaScript (let, const, arrow functions, classes, promises, async/await, etc.) are first defined in ECMAScript.
+
+Versions are named ES5, ES6, ES7... or by year (ES2015, ES2016, ES2020...).
+
+
+
+
+
+//JavaScript
+avaScript is a programming language mainly used to make websites interactive.
+
+HTML = structure
+
+CSS = style
+
+JavaScript = brain (adds logic, interactivity, animations, events, etc.)
+
+It can also be used outside browsers (like in Node.js) for making servers, apps, and even games.
+
+JavaScript Engines (Compilers/Interpreters)
+
+Browsers don’t directly understand JavaScript. They use engines (special programs) to run JS code.
+
+V8 (by Google)
+
+Used in Chrome and Node.js
+
+Very fast because it compiles JS into machine code
+
+That’s why Node.js is so powerful.
+
+SpiderMonkey (by Mozilla)
+
+First ever JavaScript engine
+
+Used in Firefox browser
+
+Other engines:
+
+JavaScriptCore (Nitro) → Safari
+
+Chakra → Old Microsoft Edge
+
+
+//Node js
+Node.js is a runtime environment that lets you run JavaScript outside the browser.
+
+Normally, JavaScript runs inside a browser (like Chrome, Firefox).
+
+With Node.js, you can run JavaScript on your computer/server just like Python, C, or Java.
+
+It is built on Google’s V8 engine (same engine that runs JS in Chrome).
+
+
+//Bun
+Bun is a modern JavaScript runtime (like Node.js), but faster and more optimized.
+
+It can run JavaScript, TypeScript, and JSX directly.
+
+Built on JavaScriptCore (Safari’s engine), not V8.
+
+Comes with a bundler, transpiler, package manager, and test runner all in one.
+
+Key Features of Bun
+
+Super fast startup and execution (faster than Node.js in many cases).
+
+TypeScript & JSX support out of the box → no extra setup.
+
+Built-in bundler → no need for webpack/parcel for many cases.
+
+Bun install → faster alternative to npm/yarn/pnpm.
+
+API-compatible with Node.js (mostly) → many Node.js apps can run directly on Bun.
